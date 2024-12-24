@@ -1,0 +1,29 @@
+4 R Scripts.
+Packages/libraries loaded, and references made
+-------------------
+sole_script.R:
+
+library("tidyverse")
+library("devtools")
+
+#Execute the public spare/single file
+
+sole_file <- "https://raw.githubusercontent.com/ymandal/Moddable_R/refs/heads/main/Single_Main"
+
+devtools::source_url(sole_file)
+
+-------------------
+UI.R:
+
+
+
+-------------------
+Server.R:
+
+
+
+-------------------
+Global.R:
+
+
+
