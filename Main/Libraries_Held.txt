@@ -1,29 +1,63 @@
-4 R Scripts.
-Packages/libraries loaded, and references made
--------------------
-sole_script.R:
+#4 R Scripts.
+#Packages/libraries loaded, and references made
+###-------------------
+##sole_script.R:
 
 library("tidyverse")
 library("devtools")
 
 #Execute the public spare/single file
 
-sole_file <- "https://raw.githubusercontent.com/ymandal/Moddable_R/refs/heads/main/Single_Main"
+sole_file <- "https://raw.githubusercontent.com/ymandal/Moddable_R/refs/heads/main/Main/sole_script.R"
 
 devtools::source_url(sole_file)
 
--------------------
-UI.R:
+###-------------------
+##UI.R:
+
+library("tidyverse")
+library("devtools")
+
+#Execute the UI file
+
+ui_file <- "https://raw.githubusercontent.com/ymandal/Moddable_R/refs/heads/main/Main/remoteUI.R"
+
+devtools::source_url(ui_file)
+
+###-------------------
+##Server.R:
+
+library("tidyverse")
+library("devtools")
+
+#Execute the Server file
+
+server_file <- "https://raw.githubusercontent.com/ymandal/Moddable_R/refs/heads/main/Main/remoteServer.R"
+
+devtools::source_url(server_file)
+
+###-------------------
+##Global.R:
+
+library("tidyverse")
+library("devtools")
+
+#Execute the Global file
+
+global_file <- "https://raw.githubusercontent.com/ymandal/Moddable_R/refs/heads/main/Main/remoteGlobal.R"
+
+devtools::source_url(global_file)
+
+###---------------------------
+
+
+#~Fin.
 
 
 
--------------------
-Server.R:
 
 
 
--------------------
-Global.R:
 
 
 
