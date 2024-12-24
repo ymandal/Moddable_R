@@ -5,4 +5,4 @@ bootstrapPage(
     
     
     ##the Main Map: 
-    leafletOutput("themainmap", width = "100%", height = "100%") #,
+    #leafletOutput("themainmap", width = "100%", height = "100%") #,
